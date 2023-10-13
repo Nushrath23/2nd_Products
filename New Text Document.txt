@@ -1,0 +1,27 @@
+Question:
+
+Suppose you are building a simple inventory management system for a store that sells various types of products. Each product can 
+be categorized as either "Electronics" or "Clothing." Both electronics and clothing have some common attributes, such as a product
+ code and price, but they also have specific attributes. Electronics have a warranty period (in months), while clothing 
+ has a size (S, M, L, XL). Implement an object-oriented program in C++ to model this scenario.
+
+Your program should include the following classes:
+
+Product: The base class that contains common attributes like productCode (string) and price (float).
+
+Electronics: A derived class from Product that includes an additional attribute warrantyPeriod (integer, months).
+
+Clothing: Another derived class from Product that includes an additional attribute size (char, S/M/L/XL).
+
+Your program should allow the following operations:
+
+Create objects of type Electronics and Clothing.
+Set and retrieve the attributes of each object.
+Display the details of each product, including the common attributes and the specific attributes.
+Demonstrate your program by creating instances of both Electronics and Clothing objects, setting their attributes, and displaying 
+their details.
+
+Bonus (Optional): Implement error handling to ensure that the warranty period for electronics is not negative, and the size for 
+clothing is one of the specified values (S, M, L, XL).
+
+In your answer, provide the C++ code for the classes, object creation, input, output, and inheritance.
